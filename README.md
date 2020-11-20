@@ -1,26 +1,3 @@
-如下是C++后台研发技术路线以及知识点，这里有很多细节，还需要不断完善。 欢迎大家通过[【公众号】](#公众号) 或者加我[【微信】](#微信) 与我交流，一起成长一起进步！
-
-
-<p align="center">
-  <a href="#微信"><img src="https://img.shields.io/badge/wechat-%E5%BE%AE%E4%BF%A1%E7%BE%A4-brightgreen" alt="微信群"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95-blue" alt="公众号"></a>
-  <a href="https://www.toutiao.com/c/user/60356270818/#mid=1633692776932365"><img src="https://img.shields.io/badge/toutiao-%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95-yellow" alt=""></a>
-  <a href="https://www.zhihu.com/people/sun-xiu-yang-64"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt=""></a>
-  <a href="https://blog.csdn.net/youngyangyang04"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt=""></a>
-  <a href="https://cloud.tencent.com/developer/user/2226365/activities"><img src="https://img.shields.io/badge/%E8%85%BE%E8%AE%AF-%E4%BA%91%E7%A4%BE%E5%8C%BA-brightgreen" alt=""></a>
-  <a href="https://www.cnblogs.com/youngyangyang04/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt=""></a>
-</p>
-
-以下没有连接的内容就是还没有写，笔者正在拼命赶稿ing....
-
-# C++primer B站视频讲解 
-
-* [学习C++书籍推荐](https://www.bilibili.com/video/BV1rK4y1e7ed)
-* [听说C++ primer 太厚了 看不进去？](https://www.bilibili.com/video/BV1Z5411874t)
-* [C++ primer 第一章，你要知道的知识点还有这些！](https://www.bilibili.com/video/BV1Kv41117Ya)
-* [C++ primer 第二章，前两节](https://www.bilibili.com/video/BV1MA411j74g)
-
-（玩命更新ing...）
 
 # 编程语言C++
 
@@ -39,8 +16,13 @@
 * C++ 内存分配机制
 * 指针
     * 迭代器与普通指针有什么区别 
+       迭代器针是一个对不同容器的"泛指针"，好处:不会从定义范围越界.
     * C++的智能指针及其原理
-* override和overload的区别
+* override和overload，Overwrite的区别
+  override:父辈的相关函数被子代取代（派生类函数覆盖基类函数,基类函数必须有virtual 关键字）
+  overload:带有不同的函数参数*（同类中）
+  Overwrite: 是指派生类的函数屏蔽了与其同名的基类函数
+  
 * 写string类的构造，析构，拷贝函数
 
 # 数据结构与算法
